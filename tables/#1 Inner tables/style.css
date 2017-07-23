@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+}
+
+.outer-table {
+    width: 600px;
+    margin: 10px auto;
+    background-color: bisque;
+}
+
+.outer-table td {
+    padding: 10px;
+}
+
+.outer-table .nav-panel {
+    background-color: gray;
+}
+
+.inner-table {
+    width: 200px;
+    background-color: white;
+}
+
+.inner-table td {
+    border: 2px solid gray;
+}
