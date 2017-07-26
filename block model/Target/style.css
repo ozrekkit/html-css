@@ -1,15 +1,45 @@
-#A {
+body {
+    margin: 0;
+}
+#container {
     background-color: deeppink;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+
 }
 
 #B {
     background-color: bisque;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+
+    top: 12%;/*чи є який інший спосіб
+    перемішувати коло всередені по центру як, наприклад
+    марджин 0 авто*/
+
 }
 
 #C {
     background-color: white;
+    position: relative;
+    width: 50px;
+    height: 12px;
+    margin: auto;
+    bottom: 60px;
+
+
 }
 
 #D {
     background-color: white;
+    position: relative;
+    width: 12px;
+    height: 50px;
+    margin: auto;
+    bottom: 90px;
 }
