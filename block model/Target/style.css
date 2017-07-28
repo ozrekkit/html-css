@@ -1,45 +1,51 @@
 body {
     margin: 0;
 }
+
 #container {
     background-color: deeppink;
     width: 200px;
     height: 200px;
-    margin: auto;
+    margin: 0 auto;
     position: relative;
 
 }
 
-#B {
+#circle {
     background-color: bisque;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    position: relative;
-    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -75px;
+}
 
-    top: 12%;/*чи є який інший спосіб
+/*чи є який інший спосіб
     перемішувати коло всередені по центру як, наприклад
     марджин 0 авто*/
 
-}
-
-#C {
+#horizon {
     background-color: white;
-    position: relative;
+    position: absolute;
     width: 50px;
     height: 12px;
-    margin: auto;
-    bottom: 60px;
-
+    top: 50%;
+    left: 50%;
+    margin-top: -6px;
+    margin-left: -25px;
 
 }
 
-#D {
+#vertical {
     background-color: white;
-    position: relative;
+    position: absolute;
     width: 12px;
     height: 50px;
-    margin: auto;
-    bottom: 90px;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -6px;
+
 }

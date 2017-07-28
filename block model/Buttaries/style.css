@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+
+.high {
+    width: 300px;
+    height: 115px;
+    background-color: black;
+    position: relative;
+
+}
+div{
+    width: 250px;
+    height: 90px;
+    background-color: red;
+    position: absolute;
+    top: 12px;
+    left: 8px;
+}
+div.div
