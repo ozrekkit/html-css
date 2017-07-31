@@ -1,3 +1,61 @@
 body {
     margin: 0;
 }
+
+.low {
+    width: 300px;
+    height: 100px;
+    border: solid 6px;
+    position: relative;
+    margin: 0 auto 20px auto;
+
+}
+
+.low div {
+    background-color: red;
+    position: absolute;
+    width: 70px;
+    height: 100px;
+}
+#a {
+    height: 25px;
+    width: 6px;
+    background-color: black;
+    position: relative;
+    top: 50%;
+    margin-top: -12.5px;
+    left: 100%;
+    margin-left: 6px;
+
+
+}
+
+.medium {
+    width: 300px;
+    height: 100px;
+    border: solid 6px;
+    position: relative;
+    margin: 0 auto 20px auto;
+}
+
+.medium div {
+    background-color: yellow;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+}
+
+.high {
+    width: 300px;
+    height: 100px;
+    border: solid 6px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.high div {
+    background-color: green;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+}
