@@ -8,18 +8,16 @@ body {
     border: solid 6px;
     position: relative;
     margin: 0 auto 20px auto;
-
 }
 
-.low div {
+.low :first-child {
     background-color: red;
     position: absolute;
     width: 70px;
     height: 100px;
 }
-/*не знаю як звернутися до другого діва, нічого поки не придумав кращого
-як дати айди*/
-#a {
+
+.low :last-child {
     height: 25px;
     width: 6px;
     background-color: black;
@@ -29,8 +27,6 @@ body {
     left: 100%;
     margin-left: 6px;
 }
-/*Чи правильно все зробив у плюсовій частині? Другі поки батарейкі
- ще не робив*/
 
 .medium {
     width: 300px;
@@ -40,11 +36,22 @@ body {
     margin: 0 auto 20px auto;
 }
 
-.medium div {
+.medium :first-child {
     background-color: yellow;
     position: absolute;
     width: 150px;
     height: 100px;
+}
+
+.medium :last-child {
+    height: 25px;
+    width: 6px;
+    background-color: black;
+    position: relative;
+    top: 50%;
+    margin-top: -12.5px;
+    left: 100%;
+    margin-left: 6px;
 }
 
 .high {
@@ -55,9 +62,20 @@ body {
     margin: 0 auto;
 }
 
-.high div {
+.high :first-child {
     background-color: green;
     position: absolute;
     width: 300px;
     height: 100px;
+}
+
+.high :last-child {
+    height: 25px;
+    width: 6px;
+    background-color: black;
+    position: relative;
+    top: 50%;
+    margin-top: -12.5px;
+    left: 100%;
+    margin-left: 6px;
 }
