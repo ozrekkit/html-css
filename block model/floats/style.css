@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#left-side {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: bisque;
+    padding-bottom: 60px;
+}
+
+#content {
+    position: relative;
+    padding-left: 200px;
+    background-color: yellow;
+    padding-bottom: 60px
+}
+
+#test {
+    width: 20px;
+    height: 30px;
+    background-color: green;
+}
+
+#main-header {
+    height: 150px;
+    background-color: green;
+}
+
+#main-footer {
+    position: fixed;
+    height: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: brown;
+}
