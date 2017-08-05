@@ -2,6 +2,14 @@ body {
     margin: 0;
 }
 
+#box {
+    width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid black;
+    position: relative;
+}
+
 .low {
     width: 300px;
     height: 100px;
@@ -11,34 +19,34 @@ body {
 }
 
 .low :first-child {
-    background-color: red;
     position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
     width: 70px;
-    height: 100px;
+    height: 100%;
 }
 
 .low :last-child {
     height: 25px;
     width: 6px;
     background-color: black;
-    position: relative;
-    top: 50%;
+    position: absolute;
     margin-top: -12.5px;
-    left: 100%;
-    margin-left: 6px;
+    top: 50%;
+    right: -12px;
 }
 
 .medium {
     width: 300px;
     height: 100px;
     border: solid 6px;
-    position: relative;
+
     margin: 0 auto 20px auto;
 }
 
 .medium :first-child {
     background-color: yellow;
-    position: absolute;
     width: 150px;
     height: 100px;
 }
@@ -47,10 +55,7 @@ body {
     height: 25px;
     width: 6px;
     background-color: black;
-    position: relative;
-    top: 50%;
     margin-top: -12.5px;
-    left: 100%;
     margin-left: 6px;
 }
 
