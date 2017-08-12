@@ -10,15 +10,33 @@ html {
     height: 100%;
 }
 
-.main-table {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 .main-table td {
-    border: 2px solid black;
-    width: 200px;
     padding: 10px;
-    /*на що саме впливає значення педдіинґ 10px?*/
 }
+
+.main-header {
+    font-size: 22px;
+    height: 150px;
+    background-color: cornflowerblue;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.main-top-menu td {
+    width: calc(100% / 6);
+}
+
+.main-left-menu {
+    vertical-align: top;
+}
+
+
+
+
+
+
