@@ -10,15 +10,28 @@ html {
     height: 100%;
 }
 
+td {
+    /*padding: 10px;*/
+}
+
 .main-table {
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
-.main-table td {
+table td {
     border: 2px solid black;
     width: 200px;
     padding: 10px;
-    /*на що саме впливає значення педдіинґ 10px?*/
+    vertical-align: top;
 }
+
+table {
+    border-spacing: 0;
+}
+
+
+
+
+
