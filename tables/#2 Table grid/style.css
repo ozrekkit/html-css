@@ -10,6 +10,7 @@ html {
     height: 100%;
 }
 
+<<<<<<< HEAD
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -36,6 +37,29 @@ table {
 }
 
 
+=======
+td {
+    /*padding: 10px;*/
+}
+
+.main-table {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+table td {
+    border: 2px solid black;
+    width: 200px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+table {
+    border-spacing: 0;
+}
+
+>>>>>>> 7a1d3aadbacd33643c2f3cca99ee847a5caf73b3
 
 
 
