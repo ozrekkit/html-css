@@ -1,0 +1,97 @@
+#triangle-1 {
+    background-color: greenyellow;
+    width: 150px;
+    height: 50px;
+    position: relative;
+}
+
+#triangle-1::before {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-top-color: greenyellow;
+    border-right-color: greenyellow;
+    position: absolute;
+    top: 100%;
+}
+
+#triangle-1::after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-left-color: greenyellow;
+    border-right-width: 0;
+    position: absolute;
+    left: 100%;
+}
+
+#triangle-2 {
+    height: 60px;
+    width: 120px;
+    background-color: cornflowerblue;
+    margin-top: 50px;
+    position: relative;
+}
+
+#triangle-2::before {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: cornflowerblue;
+    position: absolute;
+    top: 100%;
+    margin-left: -10px;
+    left: 50%;
+}
+
+#triangle-3 {
+    height: 140px;
+    width: 200px;
+    background-color: deepskyblue;
+    margin-top: 70px;
+    margin-left: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+#triangle-3::before {
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-right-color: deepskyblue;
+    top: 50%;
+    right: 100%;
+    margin-top: -25px;
+    position: absolute;
+}
+
+#triangle-4 {
+    height: 70px;
+    width: 170px;
+    background-color: brown;
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+
+#triangle-4::before {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 30px solid brown;
+    border-right: 85px solid blue;
+    border-left: 85px solid greenyellow;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -85px;
+}
