@@ -60,6 +60,29 @@
     display: inline-block;
 }
 
+#triangle-3 div {
+    height: 130px;
+    width: 190px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#triangle-3 div:before {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 22.5px solid transparent;
+    border-right-color: blueviolet;
+    top: 50%;
+    right: 100%;
+    margin-top: -22.5px;
+    position: absolute;
+
+}
+
 #triangle-3::before {
     display: block;
     content: "";
@@ -88,8 +111,8 @@
     width: 0;
     height: 0;
     border-top: 30px solid brown;
-    border-right: 85px solid blue;
-    border-left: 85px solid greenyellow;
+    border-right: 85px solid transparent;
+    border-left: 85px solid transparent;
     position: absolute;
     top: 100%;
     left: 50%;
