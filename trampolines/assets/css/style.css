@@ -28,6 +28,25 @@ body {
     padding: 0;
 }
 
+.nav-menu-search {
+    float: right;
+    position: relative;
+    margin-top: 7px;
+}
+
+.nav-menu-search i {
+    position: absolute;
+    left: 5px;
+    top: 4px;
+}
+
+.nav-menu-search input {
+    height: 25px;
+    width: 200px;
+    padding-left: 30px;
+    border: 0;
+}
+
 .nav-menu li {
     float: left;
     position: relative;
@@ -46,7 +65,7 @@ body {
 }
 
 .nav-menu li:first-child a {
-    background: url('images/icons/ico-home.svg') center no-repeat;
+    background: url('../../images/icons/ico-home.svg') center no-repeat;
     height: 40px;
     width: 30px;
     background-size: 25px;
@@ -58,20 +77,9 @@ body {
     font-weight: bold;
     display: block;
     height: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
     line-height: 40px;
-}
-
-.nav-menu input {
-    height: 25px;
-    width: 200px;
-    margin-top: 10px;
-
-
-    /*outline: none;*/
-    /*padding-left: 30px;*/
-    /*background: 2px 2px url(images/icons/search.png) no-repeat white;*/
 }
 
 .nav-menu li a:hover {
@@ -81,7 +89,7 @@ body {
 }
 
 .nav-menu li:first-child a:hover {
-    background: url('images/icons/ico-home-hover.svg') center no-repeat;
+    background: url('../../images/icons/ico-home-hover.svg') center no-repeat;
     background-size: 25px ;
 }
 
