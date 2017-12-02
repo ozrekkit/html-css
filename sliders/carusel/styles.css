@@ -1,0 +1,88 @@
+.clear-fix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.carusel {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carusel input {
+    display: none;
+}
+
+.carusel .slide-container {
+    width: 1000px;
+}
+
+.carusel .slides {
+    width: 600px;
+    overflow: hidden;
+}
+
+.carusel .slide {
+    float: left;
+    box-sizing: border-box;
+    border: 2px solid white;
+    width: 200px;
+}
+
+.carusel .slide:hover {
+    border: 2px solid blue;
+}
+
+.carusel .slide img {
+    width: 100%;
+}
+
+.carusel .slide h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.carusel .controls label {
+    display: none;
+}
+
+#slide-1:checked ~ .controls label:nth-child(3),
+#slide-2:checked ~ .controls label:nth-child(1),
+#slide-3:checked ~ .controls label:nth-child(2) {
+    width: 0;
+    height: 0;
+    display: block;
+    border: 20px solid transparent;
+    border-right-color: #FD6D26;
+    border-left: 0 #FD6D26;
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+#slide-1:checked ~ .controls label:nth-child(2),
+#slide-2:checked ~ .controls label:nth-child(3),
+#slide-3:checked ~ .controls label:nth-child(1) {
+    width: 0;
+    height: 0;
+    display: block;
+    border: 20px solid transparent;
+    border-right: 0 #FD6D26;
+    border-left-color: #FD6D26;
+    position: absolute;
+    top: 50%;
+    right: -22px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+#slide-1:checked ~ .slides > .slide-container {margin-left: 0}
+#slide-2:checked ~ .slides > .slide-container {margin-left: -200px}
+#slide-3:checked ~ .slides > .slide-container {margin-left: -400px}
+
+.carusel .slide-container {
+    transition: all 0.8s ease-in-out;
+}
